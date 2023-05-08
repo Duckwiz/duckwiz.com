@@ -1,0 +1,60 @@
+:root {
+ font-family: Helvetica, sans-serif;
+ text-align: center;
+ --pri-color: #E9F2E3;
+ --sec-color: #4b7024;
+ --ter-color: #2b4b09;
+ --header-height: 100px;
+ --nav-links: 3;
+ --nav-txt-size: calc(var(--header-height) / 4);
+}
+
+body {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  background: var(--pri-color);
+  overflow: hidden;
+}
+
+header {
+  background: var(--sec-color);
+  height: var(--header-height);
+  color: var(--pri-color);
+  display: flex;
+  padding: 0 10%;
+}
+
+#logo {
+  margin: 15px;
+  padding: 5px;
+  border: var(--pri-color) solid 2px;
+  border-radius: 50%;
+}
+nav {
+  width: 100%;
+  display: inline-flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+nav a, nav a:visited {
+  font-size: var(--nav-txt-size);
+  line-height: var(--nav-txt-size);
+  font-weight: bold;
+  display: inline-block;
+  width: calc(100% / var(--nav-links));
+  padding: calc((var(--header-height) - var(--nav-txt-size)) / 2) 0;
+}
+
+a {
+  color: var(--pri-color);
+  user-select: none;
+  background-color: var(--sec-color);
+  transition: all .15s;
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: var(--ter-color);
+}
