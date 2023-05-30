@@ -7,3 +7,4 @@ async function getHello() {
   document.getElementById("msg").textContent = res;
 };
 
+getHello();
