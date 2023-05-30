@@ -6,8 +6,6 @@ const api = express();
 
 api.use('/api/', routerModule);
 
-api.use(express.static('dist'));
-
 const handler = serverless(api);
 
 module.exports = { handler };
