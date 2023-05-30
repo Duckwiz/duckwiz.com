@@ -3,7 +3,6 @@
 
 async function getHello() {
   const res = await fetch("/hello");
-  return res;
+  document.getElementById("msg").textContent = res;
 };
 
-document.getElementById("msg").textContent = await getHello();
