@@ -4,6 +4,6 @@
 const msg = async () => {
   const res = await fetch("/hello");
   return res;
-}
+};
 
 document.getElementById("msg").textContent = msg;
