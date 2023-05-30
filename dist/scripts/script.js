@@ -1,1 +1,1 @@
-fetch("/api/hello");
+fetch("/api/hello.js");
