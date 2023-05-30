@@ -3,8 +3,8 @@
 
 async function getHello() {
   const res = await fetch("/api/hello");
-  console.log(res);
-  document.getElementById("msg").textContent = res.body;
+  console.log(res.json);
+  document.getElementById("msg").textContent = res;
 };
 
 getHello();
