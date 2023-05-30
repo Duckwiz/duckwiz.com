@@ -6,4 +6,4 @@ async function getHello() {
   return res;
 };
 
-document.getElementById("msg").textContent = getHello();
+document.getElementById("msg").textContent = await getHello();
