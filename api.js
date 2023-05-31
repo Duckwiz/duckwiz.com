@@ -6,6 +6,6 @@ app.listen(port, () => console.log(`listening on port ${port}!`));
 
 // app.use(express.static('public'));
 
-app.get("/", (request, response) => {
-    response.sendFile("/public/index.html")
+app.get("/", (req, res) => {
+    res.sendFile("./public/index.html")
   })
