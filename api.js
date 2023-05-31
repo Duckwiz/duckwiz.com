@@ -7,5 +7,5 @@ app.listen(port, () => console.log(`listening on port ${port}!`));
 app.use(express.static('public'));
 
 app.get("/game", (req, res) => {
-    res.sendFile("./public/pages/game.html")
+    res.sendFile("public/pages/game.html")
   })
