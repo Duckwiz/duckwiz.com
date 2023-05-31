@@ -4,7 +4,7 @@ const app = express();
 const port = process.env.PORT || 3000;
 app.listen(port, () => console.log(`listening on port ${port}!`));
 
-app.get("/", async (req, res) => res.type('html').send(await readFile("/public/index.html", utf8)));
+app.get("/", (req, res) => res.type('html').send(readFile("/public/index.html", utf8)));
 
 // app.get("/", (req, res) => res.type('html').send(html));
 
