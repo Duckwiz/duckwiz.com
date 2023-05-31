@@ -1,0 +1,18 @@
+{
+  "name": "duckwiz",
+  "version": "1.0.0",
+  "description": "silly lil site",
+  "main": "api.js",
+  "repository": "https://github.com/Duckwiz/duckwiz.com",
+  "author": "me >:)",
+  "license": "MIT",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "engines": {
+    "node": ">=14"
+  }
+}
