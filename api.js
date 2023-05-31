@@ -15,5 +15,5 @@ app.get("/game", (req, res) => {
 })
 
 app.get("/hello", (req, res) => {
-    res.send("hiya")
+    res.json({"msg": "hiya"})
 })
