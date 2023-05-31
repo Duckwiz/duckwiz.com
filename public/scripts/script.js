@@ -1,7 +1,8 @@
 async function getHello() {
   const res = await fetch("/hello");
-  console.log(res);
-  document.getElementById("msg").textContent = res;
+  const data = await res.json();
+  console.log(data);
+  document.getElementById("msg").textContent = data;
 };
 
 getHello();
