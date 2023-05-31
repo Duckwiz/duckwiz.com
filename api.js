@@ -13,3 +13,7 @@ app.get("/about", (req, res) => {
 app.get("/game", (req, res) => {
     res.sendFile(`${__dirname}/public/pages/game.html`)
 })
+
+app.get("/hello", (req, res) => {
+    res.send("hiya")
+})
