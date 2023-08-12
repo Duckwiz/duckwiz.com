@@ -1,6 +1,8 @@
 const express = require("express");
 const app = express();
 
+let visits = 0;
+
 const port = process.env.PORT || 3000;
 app.listen(port, () => console.log(`listening on port ${port}!`));
 
@@ -15,5 +17,6 @@ app.get("/game", (req, res) => {
 })
 
 app.get("/hello", (req, res) => {
-    res.json({"msg": "hiya"})
+    res.json({"msg": visits})
+    visits ++;
 })
