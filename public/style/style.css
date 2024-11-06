@@ -2,8 +2,8 @@
     font-family: Helvetica, sans-serif;
     text-align: center;
     --pri-color: #fdfff8;
-    --sec-color: #d1e69a;
-    --ter-color: #bcd971;
+    --sec-color: #96c02a;
+    --ter-color: #84b30d;
     --header-height: 100px;
     --nav-links: 3;
     --nav-txt-size: calc(var(--header-height) / 4);
