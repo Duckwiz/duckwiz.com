@@ -5,7 +5,7 @@
     --sec-color: #83a324;
     --ter-color: #74970b;
     --header-height: 100px;
-    --nav-links: 3;
+    --nav-links: 2;
     --nav-txt-size: calc(var(--header-height) / 4);
 }
 
@@ -23,6 +23,10 @@ header {
   color: var(--pri-color);
   display: flex;
   padding: 0 10%;
+}
+
+h1 {
+  font-size: calc(var(--nav-txt-size) * 2);
 }
 
 #logo {
