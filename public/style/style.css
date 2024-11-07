@@ -29,6 +29,10 @@ h1 {
   font-size: calc(var(--nav-txt-size) * 2);
 }
 
+h1 {
+    font-size: var(--nav-txt-size);
+}
+
 #logo {
   margin: 15px;
   padding: 5px;
