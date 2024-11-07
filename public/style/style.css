@@ -14,7 +14,6 @@ body {
   border: 0;
   padding: 0;
   background: var(--pri-color);
-  overflow: hidden;
 }
 
 header {
@@ -30,7 +29,7 @@ h1 {
 }
 
 h2 {
-    font-size: (--header-height);
+    font-size: var(--header-height);
 }
 
 #logo {
