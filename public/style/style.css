@@ -25,11 +25,11 @@ header {
 }
 
 h1 {
-    font-size: var(--header-height);
+    font-size: calc(var(--header-height) / 3);
 }
 
 h2 {
-    font-size: calc(var(--header-height) / 2);
+    font-size: var(--nav-txt-size));
 }
 
 #logo {
