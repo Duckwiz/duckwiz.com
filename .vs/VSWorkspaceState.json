@@ -2,8 +2,10 @@
   "ExpandedNodes": [
     "",
     "\\public",
-    "\\public\\images"
+    "\\public\\pages",
+    "\\public\\scripts",
+    "\\public\\style"
   ],
-  "SelectedNode": "\\public\\images\\diagonal_president.png",
+  "SelectedNode": "\\api.js",
   "PreviewInSolutionExplorer": false
 }
