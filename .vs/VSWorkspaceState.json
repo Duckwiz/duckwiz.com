@@ -2,10 +2,12 @@
   "ExpandedNodes": [
     "",
     "\\public",
+    "\\public\\images",
+    "\\public\\images\\kinlist",
     "\\public\\pages",
     "\\public\\scripts",
     "\\public\\style"
   ],
-  "SelectedNode": "\\api.js",
+  "SelectedNode": "\\public\\images\\kinlist\\nakamura.png",
   "PreviewInSolutionExplorer": false
 }
