@@ -12,8 +12,8 @@ app.get("/game", (req, res) => {
     res.sendFile(`${__dirname}/public/pages/game.html`)
 })
 
-app.get("/kins", (req, res) => {
-    res.sendFile(`${__dirname}/public/pages/kins.html`)
+app.get("/sillies", (req, res) => {
+    res.sendFile(`${__dirname}/public/pages/sillies.html`)
 })
 
 app.get("/hello", (req, res) => {

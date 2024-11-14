@@ -6,7 +6,7 @@ class CustomHeader extends HTMLElement {
                 <nav>
                     <a href="/">home</a>
                     <a href="/game">game</a>
-                    <a href="/kins">sillies</a>
+                    <a href="/sillies">sillies</a>
                 </nav>
             </header>
             `
