@@ -18,7 +18,7 @@ app.get("/sillies", (req, res) => {
 })
 
 app.get("/hello", (req, res) => {
-    fs.readFile(`${__dirname}/data/visits.txt`, "utf8", (err, data) => {
+    fs.readFile(`/data/visits.txt`, "utf8", (err, data) => {
         res.json({ "msg": data })
         visits = data;
     })
