@@ -20,5 +20,9 @@ app.get("/sillies", (req, res) => {
 app.get("/hello", (req, res) => {
     fs.readFile(`${__dirname}/data/visits.txt`, "utf8", (err, data) => {
         res.json({ "msg": data })
+        visits = data;
+    })
+    fs.writeFile(`${__dirname}/data/visits.txt`, visits + 1, err => {
+        if (err) throw err;
     })
 })
