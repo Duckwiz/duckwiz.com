@@ -19,7 +19,7 @@ app.get("/sillies", (req, res) => {
 
 app.get("/hello", (req, res) => {
     fs.readFile(`/data/visits.txt`, "utf8", (err, data) => {
-        visits = data + 1;
+        visits = parseInt(data) + 1;
     })
     fs.writeFile(`/data/visits.txt`, visits.toString(), (err) => { })
     res.json({ "msg": visits })
