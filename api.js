@@ -2,6 +2,8 @@ const express = require("express");
 const fs = require('node:fs');
 const app = express();
 
+let visits = 0;
+
 const port = process.env.PORT || 3000;
 app.listen(port, () => console.log(`listening on port ${port}!`));
 
@@ -16,8 +18,9 @@ app.get("/sillies", (req, res) => {
 })
 
 app.get("/hello", (req, res) => {
-    fs.readFile(`${__dirname}/data/visits.txt`, (err, data) => {
-        console.log(data.toString());
+    fs.readFile(`${__dirname}/data/visits.txt`, "utf8", (err, data) => {
+        visits = data;
     })
-    res.json({ "msg": 0 })
+    fs.writeFile(`${__dirname}/data/visits.txt`, visits + 1)
+    res.json({ "msg": visits })
 })
