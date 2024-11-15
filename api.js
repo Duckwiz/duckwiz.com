@@ -22,6 +22,5 @@ app.get("/hello", (req, res) => {
         res.json({ "msg": data })
         visits = data;
     })
-    console.log(visits + 1);
-    fs.writeFile(`/data/visits.txt`, (visits + 1).toString())
+    fs.writeFile(`/data/visits.txt`, visits + 1)
 })
