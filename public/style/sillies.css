@@ -1,4 +1,5 @@
 #kinbody {
+    color: var(--pri-color);
     display: flex;
     justify-content: start;
     vertical-align: top;
