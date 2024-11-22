@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\rawrb\\Desktop\\Projects\\duckwiz.com\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\rawrb\\Desktop\\Projects\\duckwiz.com\\api.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:api.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\rawrb\\Desktop\\Projects\\duckwiz.com\\public\\pages\\sillies.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:public\\pages\\sillies.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,21 +14,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "api.js",
-              "DocumentMoniker": "C:\\Users\\rawrb\\Desktop\\Projects\\duckwiz.com\\api.js",
-              "RelativeDocumentMoniker": "api.js",
-              "ToolTip": "C:\\Users\\rawrb\\Desktop\\Projects\\duckwiz.com\\api.js",
-              "RelativeToolTip": "api.js",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAACAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-11-14T23:48:32.118Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
@@ -36,6 +23,19 @@
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "sillies.html",
+              "DocumentMoniker": "C:\\Users\\rawrb\\Desktop\\Projects\\duckwiz.com\\public\\pages\\sillies.html",
+              "RelativeDocumentMoniker": "public\\pages\\sillies.html",
+              "ToolTip": "C:\\Users\\rawrb\\Desktop\\Projects\\duckwiz.com\\public\\pages\\sillies.html",
+              "RelativeToolTip": "public\\pages\\sillies.html",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABIAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-11-21T00:23:06.376Z",
+              "EditorCaption": ""
             }
           ]
         }
