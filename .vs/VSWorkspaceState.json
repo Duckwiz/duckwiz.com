@@ -2,8 +2,10 @@
   "ExpandedNodes": [
     "",
     "\\public",
+    "\\public\\pages",
+    "\\public\\scripts",
     "\\public\\style"
   ],
-  "SelectedNode": "\\public\\scripts",
+  "SelectedNode": "\\public\\style\\style.css",
   "PreviewInSolutionExplorer": false
 }

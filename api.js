@@ -9,10 +9,6 @@ app.listen(port, () => console.log(`listening on port ${port}!`));
 
 app.use(express.static('public'));
 
-app.get("/game", (req, res) => {
-    res.sendFile(`${__dirname}/public/pages/game.html`)
-})
-
 app.get("/sillies", (req, res) => {
     res.sendFile(`${__dirname}/public/pages/sillies.html`)
 })
