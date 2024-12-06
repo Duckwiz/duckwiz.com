@@ -20,7 +20,8 @@ class CustomFooter extends HTMLElement {
         this.innerHTML = `
             <footer>
                 <hr>
-                <p><a href="https://bsky.app/profile/duckwiz.com">bluesky</a>          <a href="https://duckwiz.itch.io/">itch</a></p>
+                <a href="https://bsky.app/profile/duckwiz.com">bluesky</a>
+                <a href="https://duckwiz.itch.io/">itch</a>
             </footer>
             `
     }
