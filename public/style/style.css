@@ -64,6 +64,10 @@ nav a:hover {
   background-color: var(--ter-color);
 }
 
+footer {
+  margin: 2%, 0;
+}
+
 hr {
   color: var(--sec-color);
   width: 90%;
