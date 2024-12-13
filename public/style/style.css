@@ -64,6 +64,11 @@ nav a:hover {
   background-color: var(--ter-color);
 }
 
+hr {
+  color: var(--sec-color);
+  width: 75%;
+}
+
 footer a, footer a:visited {
   color: var(--sec-color);
   user-select: none;
@@ -71,6 +76,6 @@ footer a, footer a:visited {
   text-decoration: none;
 }
 
-nav a:hover {
+footer a:hover {
   color: var(--ter-color);
 }
