@@ -52,6 +52,7 @@ nav a, nav a:visited {
   display: inline-block;
   width: calc(100% / var(--nav-links));
   padding: calc((var(--header-height) - var(--nav-txt-size)) / 2) 0;
+
   color: var(--pri-color);
   user-select: none;
   background-color: var(--sec-color);
@@ -59,6 +60,6 @@ nav a, nav a:visited {
   text-decoration: none;
 }
 
-a:hover {
+nav a:hover {
   background-color: var(--ter-color);
 }
