@@ -63,3 +63,14 @@ nav a, nav a:visited {
 nav a:hover {
   background-color: var(--ter-color);
 }
+
+footer a, footer a:visited {
+  color: var(--sec-color);
+  user-select: none;
+  transition: all .15s;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: var(--ter-color);
+}
