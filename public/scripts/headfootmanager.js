@@ -2,7 +2,7 @@ class CustomHeader extends HTMLElement {
     connectedCallback() {
         this.innerHTML = `
             <header>
-                <img src="/images/logo.png" alt="logo" id="logo">
+                <img src="/images/logo.jpg" alt="logo" id="logo">
                 <nav>
                     <a href="/">home</a>
                     <a href="/gallery">gallery</a>
