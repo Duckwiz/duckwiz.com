@@ -5,7 +5,7 @@ class CustomHeader extends HTMLElement {
                 <img src="/images/logo.png" alt="logo" id="logo">
                 <nav>
                     <a href="/">home</a>
-                    <a href="/sillies">sillies</a>
+                    <a href="/gallery">gallery</a>
                 </nav>
             </header>
             `

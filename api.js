@@ -9,8 +9,8 @@ app.listen(port, () => console.log(`listening on port ${port}!`));
 
 app.use(express.static('public'));
 
-app.get("/sillies", (req, res) => {
-    res.sendFile(`${__dirname}/public/pages/sillies.html`)
+app.get("/gallery", (req, res) => {
+    res.sendFile(`${__dirname}/public/pages/gallery.html`)
 })
 
 app.get("/hello", (req, res) => {
