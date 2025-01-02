@@ -29,7 +29,6 @@ header {
   height: var(--header-height);
   color: var(--pri-color);
   display: flex;
-  padding: 0 10%;
 }
 
 nav {
