@@ -1,9 +1,9 @@
 :root {
     font-family: Helvetica, sans-serif;
     text-align: center;
-    --pri-color: #fdfff8;
-    --sec-color: #83a324;
-    --ter-color: #74970b;
+    --pri-color: #aca199;
+    --sec-color: #4a6d3f;
+    --ter-color: #43653c;
     --header-height: 100px;
     --nav-links: 2;
     --nav-txt-size: calc(var(--header-height) / 4);
