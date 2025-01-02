@@ -9,6 +9,14 @@
     --nav-txt-size: calc(var(--header-height) / 4);
 }
 
+h1 {
+  font-size: calc(var(--header-height) / 2);
+}
+
+h2 {
+  font-size: var(--nav-txt-size);
+}
+
 body {
   margin: 0;
   border: 0;
@@ -22,14 +30,6 @@ header {
   color: var(--pri-color);
   display: flex;
   padding: 0 10%;
-}
-
-h1 {
-    font-size: calc(var(--header-height) / 2);
-}
-
-h2 {
-    font-size: var(--nav-txt-size);
 }
 
 nav {
