@@ -12,7 +12,7 @@
 body {
   margin: 0;
   border: 0;
-  padding: 0;
+  padding: 0 15%;
   background: var(--pri-color);
 }
 
@@ -32,12 +32,6 @@ h2 {
     font-size: var(--nav-txt-size);
 }
 
-#logo {
-  margin: 15px;
-  padding: 5px;
-  border: var(--pri-color) solid 2px;
-  border-radius: 50%;
-}
 nav {
   width: 100%;
   display: inline-flex;
