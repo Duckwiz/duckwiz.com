@@ -21,7 +21,7 @@ body {
   margin: 0;
   border: 0;
   padding: 0 20%;
-  background: url(--pri-color);
+  background: var(--pri-color);
 }
 
 main {
