@@ -18,7 +18,14 @@ h2 {
 }
 
 main {
-  margin: 0 20%;
+  margin: 0;
+  border: 0;
+  padding: 0 20%;
+  background: url(images/mai.jpg);
+}
+
+main {
+  margin: 0;
   border: 0;
   padding: 0;
   background: var(--pri-color);
