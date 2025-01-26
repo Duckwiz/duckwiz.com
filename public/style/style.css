@@ -28,7 +28,7 @@ main {
   margin: 0;
   border: 0;
   padding: 0;
-  background: var(#fff);
+  background: white;
 }
 
 header {
