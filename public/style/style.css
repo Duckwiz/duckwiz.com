@@ -17,10 +17,10 @@ h2 {
   font-size: var(--nav-txt-size);
 }
 
-body {
-  margin: 0;
+main {
+  margin: 0 20%;
   border: 0;
-  padding: 0 20%;
+  padding: 0;
   background: var(--pri-color);
 }
 
