@@ -21,7 +21,6 @@ class CustomFooter extends HTMLElement {
                 <hr>
                 <a href="https://bsky.app/profile/duckwiz.com">bluesky</a>
                 <a href="https://duckwiz.itch.io/">itch</a>
-                <p></p>
             </footer>
             `
     }

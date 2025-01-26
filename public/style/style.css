@@ -75,6 +75,7 @@ hr {
 
 footer a, footer a:visited {
   color: var(--sec-color);
+  font-weight: bold;
   user-select: none;
   transition: all .15s;
   text-decoration: none;
