@@ -1,7 +1,7 @@
 :root {
     font-family: Helvetica, sans-serif;
     text-align: center;
-    --pri-color: #fff;
+    --pri-color: #f5f5f0;
     --sec-color: #4a6d3f;
     --ter-color: #43653c;
     --header-height: 100px;
@@ -21,14 +21,14 @@ body {
   margin: 0;
   border: 0;
   padding: 0 20%;
-  background: url(images/mai.jpg);
+  background: url(--pri-color);
 }
 
 main {
   margin: 0;
   border: 0;
   padding: 0;
-  background: var(--pri-color);
+  background: var(#fff);
 }
 
 header {
