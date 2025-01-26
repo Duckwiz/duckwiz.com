@@ -1,7 +1,7 @@
 :root {
     font-family: Helvetica, sans-serif;
     text-align: center;
-    --pri-color: #f5f5f0;
+    --pri-color: #000;
     --sec-color: #4a6d3f;
     --ter-color: #43653c;
     --header-height: 100px;
