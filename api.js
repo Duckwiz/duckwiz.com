@@ -1,11 +1,10 @@
 const express = require("express");
 const fs = require('node:fs');
 const app = express();
-
-let visits = 0;
-
 const port = process.env.PORT || 3000;
 app.listen(port, () => console.log(`listening on port ${port}!`));
+
+let visits = 0;
 
 app.use(express.static('public'));
 
