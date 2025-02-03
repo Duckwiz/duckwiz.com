@@ -24,13 +24,13 @@ body {
   background-size: 12.5%;
 }
 
-@media only screen and (min-width: 800px) {
+@media screen and (min-width: 10000px) {
   body {
     padding: 0 25%;
   }
 }
 
-@media only screen and (max-width: 800px) {
+@media screen and (max-width: 10000px) {
   body {
     padding: 0 12.5%;
   }
