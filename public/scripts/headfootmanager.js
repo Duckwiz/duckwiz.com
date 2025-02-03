@@ -4,6 +4,7 @@ class CustomHeader extends HTMLElement {
             <header>
                 <nav>
                     <a href="/">home</a>
+                    <a href="/projects">projects</a>
                     <a href="/gallery">gallery</a>
                 </nav>
             </header>
