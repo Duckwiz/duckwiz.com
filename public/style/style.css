@@ -25,6 +25,13 @@ body {
   background-size: 12.5%;
 }
 
+@media (max-width: 800px) {
+  body {
+    padding: 0 12.5%;
+  }
+}
+
+
 main {
   margin: 0;
   border: 0;
