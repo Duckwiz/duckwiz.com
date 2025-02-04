@@ -9,7 +9,9 @@ let visits = 0;
 
 app.use(express.static('public'));
 
-webpage.serve("/gallery");
+app.get("/gallery", (req, res) => {
+    res.sendFile(`${__dirname}/public/pages/gallery.html`)
+})
 
 app.get("/projects", (req, res) => {
     res.sendFile(`${__dirname}/public/pages/projects.html`)
