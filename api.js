@@ -1,6 +1,5 @@
 const express = require("express");
 const fs = require('node:fs');
-const webpage = require("./privatescripts/webpage")
 const app = express();
 const port = process.env.PORT || 3000;
 app.listen(port, () => console.log(`listening on port ${port}!`));
